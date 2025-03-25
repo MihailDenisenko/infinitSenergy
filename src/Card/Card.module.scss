@@ -1,0 +1,41 @@
+.card {
+  position: fixed;
+  top: 25px;
+  border-radius: 15px;
+  box-shadow: 1px 2px 2px gray;
+  top: 20px;
+  left: 230px;
+  width: 400px;
+  height: 550px;
+  // position: absolute;
+  border: 1px solid black;
+  padding: 15px;
+  .infoImg {
+    width: 130px;
+  }
+  form {
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    label {
+      margin-top: 10px;
+    }
+    input {
+      margin-left: 15px;
+      width: auto;
+      padding: 3px 5px;
+      
+    }
+  }
+  .saved {
+    position: absolute;
+    top: 125px;
+    margin-top: 55px;
+    padding: 5px 15px;
+    &:hover {
+      background-color: lightblue;
+    }
+  }
+}

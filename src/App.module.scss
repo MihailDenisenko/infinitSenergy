@@ -1,0 +1,34 @@
+body {
+  display: inline;
+}
+.ul {
+  list-style: none;
+  .li {
+    width: 160px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px 0 5px 15px;
+    margin-top: 10px;
+    &:hover {
+      cursor: pointer;
+    }
+    .logo {
+      width: 20px;
+    }
+  }
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  top: 620px;
+  position: fixed;
+  left: 230px;
+  right: 0;
+  .button {
+    display: inline-block;
+    margin-right: 0;
+    &:hover {
+      background-color: lightblue;
+    }
+  }
+}
