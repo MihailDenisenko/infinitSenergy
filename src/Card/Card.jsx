@@ -101,6 +101,8 @@ export default function Card({ user }) {
         )}
         <Modal></Modal>
       </div>
+            <a href="https://github.com/MihailDenisenko/infinitSenergy">Ссылка на GitHub</a>
+      
     </div>
   );
 }
